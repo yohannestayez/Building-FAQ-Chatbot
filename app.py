@@ -1,10 +1,13 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import sys
 
 sys.path.append('services')
 from gemini_llm import get_finance_faq_response
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Default route for health check
 @app.route('/', methods=['GET'])
