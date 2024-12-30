@@ -1,6 +1,6 @@
 import requests
 import sys
-sys.path.append("C:/Users/Administrator/Documents/Icog/Code/Financial-chatbot/config")
+sys.path.append('config')
 from config import ALPHA_VANTAGE_API_KEY
 
 def get_stock_price(symbol):
