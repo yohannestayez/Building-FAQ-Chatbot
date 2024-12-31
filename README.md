@@ -92,5 +92,5 @@ python tests/test_chatbot.py
 ```
 
 ## Acknowledgments
-- [Gemini LLM](https://cloud.google.com/gen-ai/) for natural language processing and chat Responses.
+- [Gemini LLM](https://ai.google.dev/gemini-api/docs/quickstart?lang=python) for natural language processing and chat Responses.
 - [Alpha Vantage](https://www.alphavantage.co/) for financial data.
